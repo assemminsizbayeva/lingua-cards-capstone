@@ -1,0 +1,52 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "userId": "demo-user",
+      "word": "libro",
+      "translation": "book",
+      "language": "Spanish",
+      "type": "noun",
+      "example": "Estoy leyendo un libro interesante.",
+      "notes": "Masculine noun",
+      "learned": false,
+      "lastReviewed": null,
+      "nextReview": "2025-12-15T10:00:00.000Z",
+      "intervalIndex": 0,
+      "createdAt": "2025-12-01T10:00:00.000Z",
+      "difficulty": "medium"
+    },
+    {
+      "id": "2",
+      "userId": "demo-user",
+      "word": "correr",
+      "translation": "to run",
+      "language": "Spanish",
+      "type": "verb",
+      "example": "Me gusta correr por la mañana.",
+      "notes": "Regular -er verb",
+      "learned": true,
+      "lastReviewed": "2025-12-10T10:00:00.000Z",
+      "nextReview": "2025-12-17T10:00:00.000Z",
+      "intervalIndex": 2,
+      "createdAt": "2025-12-01T11:00:00.000Z",
+      "difficulty": "easy"
+    }
+  ],
+  "users": [
+    {
+      "id": "demo-user",
+      "email": "demo@example.com",
+      "name": "Demo User",
+      "password": "$2a$08$J4q4k6q8D7L9R2F1S3T4U5V6W7X8Y9Z0A1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P",
+      "stats": {
+        "totalCards": 2,
+        "learnedCards": 1,
+        "reviewDue": 1,
+        "streak": 5,
+        "lastActive": "2025-12-14T10:00:00.000Z"
+      }
+    }
+  ],
+  "batches": []
+}
